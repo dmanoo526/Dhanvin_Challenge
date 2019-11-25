@@ -5,5 +5,5 @@
 
 ### The site can be found here: [dhanvinmanoo.com](http://dhanvinmanoo.com)
 
-### The site was deployed on an AWS EC2 Ubuntu 18.04 Instance with Gunicorn(Server) and Nginx(Reverse Proxy) -More on this can be found [here](https://medium.com/@abhishekmeena_68076/how-to-deploy-the-flask-django-app-on-aws-ec2-with-gunicorn-ngnix-with-free-ssl-certificate-566b2ada3b6a)
+### The site was deployed on an AWS EC2 Ubuntu 18.04 Instance with Gunicorn(Server) and Nginx(Reverse Proxy). I used an AWS load balancer which forwards all http traffic to port 443 and uses an AWS issued certificate for the domain. -More on this can be found [here](https://medium.com/@abhishekmeena_68076/how-to-deploy-the-flask-django-app-on-aws-ec2-with-gunicorn-ngnix-with-free-ssl-certificate-566b2ada3b6a)
 
